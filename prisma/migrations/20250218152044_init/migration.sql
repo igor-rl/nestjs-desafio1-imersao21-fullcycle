@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Chat" ADD COLUMN "readAt" DATETIME;
+ALTER TABLE "Chat" ADD COLUMN "receivedAt" DATETIME;

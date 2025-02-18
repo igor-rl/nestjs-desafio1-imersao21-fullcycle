@@ -1,0 +1,29 @@
+### Criar uma mensagem
+POST http://localhost:3000/chats
+Content-Type: application/json
+
+{
+  "mensagem": "Olá, mundo!"
+}
+
+### Listar mensagens
+GET http://localhost:3000/chats
+
+
+
+
+### Indicar que a mensagem foi recebida
+PATCH http://localhost:3000/chats/2
+Content-Type: application/json
+
+{
+  "received": true
+}
+
+### Indicar que a mensagem foi lida
+PATCH http://localhost:3000/chats/3
+Content-Type: application/json
+
+{
+  "read": true
+}
