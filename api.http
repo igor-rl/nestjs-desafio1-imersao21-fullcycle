@@ -1,5 +1,5 @@
 ### Criar uma mensagem
-POST http://localhost:3000/chats
+POST http://localhost:3000/api/chats
 Content-Type: application/json
 
 {
@@ -7,13 +7,13 @@ Content-Type: application/json
 }
 
 ### Listar mensagens
-GET http://localhost:3000/chats
+GET http://localhost:3000/api/chats
 
 
 
 
 ### Indicar que a mensagem foi recebida
-PATCH http://localhost:3000/chats/2
+PATCH http://localhost:3000/api/chats/2
 Content-Type: application/json
 
 {
@@ -21,7 +21,7 @@ Content-Type: application/json
 }
 
 ### Indicar que a mensagem foi lida
-PATCH http://localhost:3000/chats/3
+PATCH http://localhost:3000/api/chats/3
 Content-Type: application/json
 
 {
